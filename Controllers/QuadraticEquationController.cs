@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Moq;
 
 namespace QuadraticEquationProject.Controllers
 {
@@ -12,10 +13,13 @@ namespace QuadraticEquationProject.Controllers
     public class QuadraticEquationController : ControllerBase
     {
         private readonly ILogger<QuadraticEquationController> _logger;
+
         public QuadraticEquationController(ILogger<QuadraticEquationController> logger)
         {
             _logger = logger;
         }
+
+
         [HttpGet]
         public ActionResult<string> Get()
         {
