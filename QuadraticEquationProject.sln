@@ -5,9 +5,7 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuadraticEquationProject", "QuadraticEquationProject.csproj", "{FEDC8F07-6C1E-4968-8103-8A56A0518944}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A0C831AA-7825-499B-BAA6-4C4295AAC0C0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation.Tests", "..\QuadraticEquation.Tests\QuadraticEquation.Tests.csproj", "{D3D695FF-717E-419C-83BC-C55F3E442347}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquationProject.Tests", "..\QuadraticEquationProject.Tests\QuadraticEquationProject.Tests.csproj", "{300F9132-5BA1-4CB5-BEDC-3A0036374DAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +17,13 @@ Global
 		{FEDC8F07-6C1E-4968-8103-8A56A0518944}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEDC8F07-6C1E-4968-8103-8A56A0518944}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEDC8F07-6C1E-4968-8103-8A56A0518944}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3D695FF-717E-419C-83BC-C55F3E442347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3D695FF-717E-419C-83BC-C55F3E442347}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3D695FF-717E-419C-83BC-C55F3E442347}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3D695FF-717E-419C-83BC-C55F3E442347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{300F9132-5BA1-4CB5-BEDC-3A0036374DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300F9132-5BA1-4CB5-BEDC-3A0036374DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300F9132-5BA1-4CB5-BEDC-3A0036374DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300F9132-5BA1-4CB5-BEDC-3A0036374DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D3D695FF-717E-419C-83BC-C55F3E442347} = {A0C831AA-7825-499B-BAA6-4C4295AAC0C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D85209FF-5D01-4B16-855C-685775D31010}
