@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuadraticEquationProject", "QuadraticEquationProject.csproj", "{FEDC8F07-6C1E-4968-8103-8A56A0518944}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquationProject.Tests", "..\QuadraticEquationProject.Tests\QuadraticEquationProject.Tests.csproj", "{300F9132-5BA1-4CB5-BEDC-3A0036374DAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuadraticEquationProject.Tests", "..\QuadraticEquationProject.Tests\QuadraticEquationProject.Tests.csproj", "{300F9132-5BA1-4CB5-BEDC-3A0036374DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquationWebFormProject", "..\QuadraticEquationWebFormProject\QuadraticEquationWebFormProject.csproj", "{8D787420-DE0B-4199-A579-E52A2808E636}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{300F9132-5BA1-4CB5-BEDC-3A0036374DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{300F9132-5BA1-4CB5-BEDC-3A0036374DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{300F9132-5BA1-4CB5-BEDC-3A0036374DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D787420-DE0B-4199-A579-E52A2808E636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D787420-DE0B-4199-A579-E52A2808E636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D787420-DE0B-4199-A579-E52A2808E636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D787420-DE0B-4199-A579-E52A2808E636}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
